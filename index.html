@@ -5,8 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        header {
+            height: 70px;
+            background-color: #494949;
+        }
+        header.menu {
+            height: 70px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        header ul {
+            list-style-type: none;
+
+            float: right;
+
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        header ul > li {
+            float: left;
+            color: white;
+            font-size: 40px;
+            
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
         .main_image {
-            width: 700px;
+            width: 60%;
             height: 400px;
             background-color: #c6ffff;
 
@@ -20,7 +46,16 @@
     
     
 <body>
-    <header></header>
+    <header>
+        <span class="menu">
+            <ul>
+                <li>테스트</li>
+                <li>테스트</li>
+                <li>테스트</li>
+            </ul>
+        </span>
+        
+    </header>
     <section>
         <div class="main_image">짠</div>
 
