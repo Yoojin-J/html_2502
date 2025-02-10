@@ -1,3 +1,6 @@
+.ex1 {
+    width: 500px;
+}
 .ex1 > h1 {
     color: rgb(0,200,0);
 }
@@ -6,6 +9,12 @@
 }
 .accent {
     color: #ff0000;
+}
+.f_ph {
+    width: 500px;
+}
+img {
+    float: right;
 }
 
 .ex2 > p {
