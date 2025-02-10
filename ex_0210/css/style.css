@@ -1,0 +1,39 @@
+section {
+    margin: 40px;
+}
+
+.ex1 > h2 {
+    color: blue;
+}
+.ex1 > p{
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.bluetext {
+    color: blue;
+}
+
+.browntext {
+    color: brown;
+}
+
+.boldtext {
+    font-weight: bold;
+}
+
+.ex4 > h2.accent {
+    background-color: #222;
+    color: #fff;
+    padding: 5px;
+}
+
+#container {
+    width: 600px;
+    padding: 15px;
+    border: 1px dotted gray;
+}
+
+.underline {
+    text-decoration: underline;
+}
