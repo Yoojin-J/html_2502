@@ -32,6 +32,8 @@ section {
     width: 600px;
     padding: 15px;
     border: 1px dotted gray;
+
+    margin: auto;
 }
 
 .underline {
