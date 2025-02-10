@@ -5,28 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
         header {
             height: 70px;
             background-color: #494949;
         }
-        header.menu {
+
+        .menu {
             height: 70px;
-            margin-left: 50px;
-            margin-right: 50px;
+            margin-left: 200px;
+            margin-right: 200px;
         }
-        header ul {
+        .menu > ul {
             list-style-type: none;
 
             float: right;
 
+            height: 50px;
             margin-top: 10px;
             margin-bottom: 10px;
         }
-        header ul > li {
+        .menu > ul > li {
             float: left;
             color: white;
-            font-size: 40px;
+            font-size: 30px;
             
+            height: 40px;
+            margin-top: auto;
+            margin-bottom: auto;
             margin-left: 50px;
             margin-right: 50px;
         }
@@ -47,13 +57,13 @@
     
 <body>
     <header>
-        <span class="menu">
+        <div class="menu">
             <ul>
                 <li>테스트</li>
                 <li>테스트</li>
                 <li>테스트</li>
             </ul>
-        </span>
+        </div>
         
     </header>
     <section>
