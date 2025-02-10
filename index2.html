@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        div.normal {
+            background-color: #FFF4A3;
+        }
+
+        div.ca {
+            width: 300px;
+            margin: auto;
+            background-color: #FFF4A3;
+        }
+
+        div.mycontainer {
+            width: 100%;
+            overflow: auto;
+        }
+        div.mycontainer div {
+            width: 33%;
+            float: left;
+        }
+
+        div.il {
+            width: 30%;
+            display: inline-block;
+        }
+
+        .mycontainer2 {
+            display: flex;
+        }
+        .mycontainer2 > div {
+            width: 33%;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+        }
+
+        ul > li {
+            border-top: 5px solid red;
+            color: red;
+            font-size: 120%;
+        }
+        ol > li {
+            color: blue;
+            font-size: 70%;
+        }
+        
+        .center {
+            color: aqua;
+        }
+        p.center {
+            background-color: #D9EEE1;
+        }
+    </style>
+  </head>
+  <body>
+    <section>
+        <h1>HTML DIV Example</h1>
+
+        Lorem Ipsum <div class="normal">I am a div</div> dolor sit amet.
+
+        <p>The yellow background is added to demonstrate the footprint of the DIV element.</p>
+
+        <hr>
+        <hr>
+
+        <h1>HTML DIV Example</h1>
+
+        <div class="normal">
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>London has over 9 million inhabitants.</p>
+        </div>
+
+        <p>the yellow background is added to demonstrate the footprint o the DIV element.</p>
+    
+        <hr>
+        <hr>
+
+        <h1>Center align d DIV element</h1>
+
+        <div class="ca">
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>London ha sover 9 milion inhabitants.</p>
+        </div>
+
+        <hr>
+        <hr>
+
+        <h1>Multiple DIV Elements</h1>
+
+        <div style="background-color: #FFF4A3;">
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>London ha sover 9 milion inhabitants.</p>
+        </div>
+
+        <div style="background-color: #FFC0C7;">
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>London ha sover 9 milion inhabitants.</p>
+        </div>
+
+        <div style="background-color: #D9EEE1;">
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>London ha sover 9 milion inhabitants.</p>
+        </div>
+
+        <hr>
+        <hr>
+
+        <div class="mycontainer">
+            <div style="background-color: #FFF4A3;">
+                <h2>London</h2>
+                <p>London is the capital city of England.</p>
+                <p>London ha sover 9 milion inhabitants.</p>
+            </div>
+    
+            <div style="background-color: #FFC0C7;">
+                <h2>London</h2>
+                <p>London is the capital city of England.</p>
+                <p>London ha sover 9 milion inhabitants.</p>
+            </div>
+    
+            <div style="background-color: #D9EEE1;">
+                <h2>London</h2>
+                <p>London is the capital city of England.</p>
+                <p>London ha sover 9 milion inhabitants.</p>
+            </div>
+        </div>
+
+        <hr>
+        <hr>
+
+        <div class="il" style="background-color: #FFF4A3;">
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>London ha sover 9 milion inhabitants.</p>
+        </div>
+
+        <div class="il" style="background-color: #FFC0C7;">
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>London ha sover 9 milion inhabitants.</p>
+        </div>
+
+        <div class="il" style="background-color: #D9EEE1;">
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>London ha sover 9 milion inhabitants.</p>
+        </div>
+
+        <hr>
+        <hr>
+
+        <h1>Flexbox Example</h1>
+        <p>align three DIV elements side by side.</p>
+        <div class="mycontainer2">
+            <div style="background-color: #FFF4A3;">
+                <h2>London</h2>
+                <p>London is the capital city of England.</p>
+                <p>London ha sover 9 milion inhabitants.</p>
+            </div>
+    
+            <div style="background-color: #FFC0C7;">
+                <h2>London</h2>
+                <p>London is the capital city of England.</p>
+                <p>London ha sover 9 milion inhabitants.</p>
+            </div>
+    
+            <div style="background-color: #D9EEE1;">
+                <h2>London</h2>
+                <p>London is the capital city of England.</p>
+                <p>London ha sover 9 milion inhabitants.</p>
+            </div>
+        </div>
+
+        <hr>
+        <hr>
+
+        <h1>Grid Example</h1>
+        <p>Align three DIV elements side by side.</p>
+        <div class="grid-container">
+            <div style="background-color: #FFF4A3;">
+                <h2>London</h2>
+                <p>London is the capital city of England.</p>
+                <p>London ha sover 9 milion inhabitants.</p>
+            </div>
+    
+            <div style="background-color: #FFC0C7;">
+                <h2>London</h2>
+                <p>London is the capital city of England.</p>
+                <p>London ha sover 9 milion inhabitants.</p>
+            </div>
+    
+            <div style="background-color: #D9EEE1;">
+                <h2>London</h2>
+                <p>London is the capital city of England.</p>
+                <p>London ha sover 9 milion inhabitants.</p>
+            </div>
+        </div>
+
+        <hr>
+        <hr>
+
+        <div>
+            <ul>
+                <li>111111</li>
+                <li>222222
+                    <ol>
+                        <li>333333</li>
+                        <li>444444</li>
+                    </ol>
+                </li>
+                <li>555555</li>
+            </ul>
+        </div>
+
+        <div class="center">테스트</div>
+        <p class="center">테스트</p>
+    </section>
+  </body>
+</html>
