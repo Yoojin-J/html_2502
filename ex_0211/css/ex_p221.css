@@ -1,0 +1,44 @@
+.ex1 > h1 {
+    font-size: 3em;
+}
+.ex1 > p {
+    font-size: 1em;
+}
+
+.accent {
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+.ex3 > p {
+    font-style: italic;
+}
+.ex3 > p.txt {
+    font-style: normal;
+}
+
+.ex4 > p.txt {
+    font: italic 12px/24px 돋움;
+}
+
+.ex5 .accent {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.ex6 {
+    width: 500px;
+}
+.ex6 img {
+    float: right;
+}
+.ex6 h1 {
+    color: rgb(0, 200, 0);
+}
+.ex6 h2 {
+    color: blue;
+}
+.ex6 .accent {
+    color: #ff0000;
+}
