@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/index5.css">
+</head>
+<body>
+    <section class="ex1">
+        <h2>HTML Iframes</h2>
+        <p>You can use the height and width attributes to specify the size of the iframe:</p>
+        <iframe src="./index.html" height="200" width="300" title="iframe Example"></iframe>
+    </section>
+
+    <br>
+
+    <section class="ex2">
+        <h2>HTML Iframes</h2>
+        <p>You can also use the CSS height and width properties to specify the size of the iframe:</p>
+
+        <iframe src="./index.html" style="height: 200px; width: 300px;" title="Iframe Example"></iframe>
+    </section>
+
+    <hr>
+
+    <section class="ex3">
+        <h2>Remove the Iframe Border</h2>
+        <p>To remove the default border of the iframe, use CSS:</p>
+
+        <iframe src="./index.html" style="border:none;" title="Iframe Exampel"></iframe>
+    </section>
+
+    <br>
+
+    <section class="ex4">
+        <h2>custom Iframe Border</h2>
+        <p>With CSS, you can also change the size, style and color of the iframe's border:</p>
+
+        <iframe src="./index.html" style="border: 2px solid red;" title="Iframe Example"></iframe>
+    </section>
+
+    <hr>
+
+    <section class="ex5">
+        <h2>Iframe - Target for a Link</h2>
+
+        <iframe src="./index.html" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
+
+        <p><a href="https://www.naver.com/" target="iframe_a">naver.com</a></p>
+
+        <p>when the target attribute ofa link matches the name of an iframe, the link will open in the iframe.</p>
+    </section>
+</body>
+</html>
