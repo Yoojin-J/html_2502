@@ -1,0 +1,36 @@
+.ex1 table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.ex1 th, .ex1 td {
+    text-align: left;
+    padding: 8px;
+}
+
+.ex1 tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+
+
+.ex2 table, .ex2 th, .ex2 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.ex2 th:nth-child(even), .ex2 td:nth-child(even) {
+    background-color: #D6EEEE;
+}
+
+
+.ex3 table, .ex3 th, .ex3 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.ex3 tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+
+.ex3 th:nth-child(even), .ex3 td:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
