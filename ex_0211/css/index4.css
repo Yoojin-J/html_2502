@@ -1,18 +1,24 @@
+.ex1 {
+    width: 60%;
+    margin: auto;
+}
 .ex1 table {
     border-collapse: collapse;
     width: 100%;
 }
-
 .ex1 th, .ex1 td {
     text-align: left;
     padding: 8px;
 }
-
 .ex1 tr:nth-child(even) {
     background-color: #D6EEEE;
 }
 
 
+.ex2 {
+    width: 60%;
+    margin: auto;
+}
 .ex2 table, .ex2 th, .ex2 td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -22,15 +28,48 @@
 }
 
 
+.ex3 {
+    width: 60%;
+    margin: auto;
+}
 .ex3 table, .ex3 th, .ex3 td {
     border: 1px solid black;
     border-collapse: collapse;
 }
-
 .ex3 tr:nth-child(even) {
     background-color: rgba(150, 212, 212, 0.4);
 }
-
 .ex3 th:nth-child(even), .ex3 td:nth-child(even) {
     background-color: rgba(150, 212, 212, 0.4);
+}
+
+
+.ex4 {
+    width: 60%;
+    margin: auto;
+}
+.ex4 table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.ex4 tr {
+    border-bottom: 1px solid #ddd;
+}
+
+
+.ex5 {
+    width: 60%;
+    margin: auto;
+}
+.ex5 table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.ex5 th, .ex5 td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+}
+.ex5 tr:hover {
+    background-color: #D6EEEE;
 }
