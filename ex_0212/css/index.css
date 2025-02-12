@@ -1,0 +1,30 @@
+th {
+    border-bottom: 1px solid black;
+    padding: 5px 30px;
+}
+
+td {
+    border-bottom: 1px solid silver;
+    padding: 5px 0;
+}
+
+td:nth-child(1) {
+    text-align: center;
+}
+th:nth-child(2), td:nth-child(2) {
+    padding: 0 20px;
+}
+
+.entities td:nth-child(3) {
+    padding-left: 15px;
+}
+.entities td:nth-child(4) {
+    padding-left: 20px;
+}
+
+.mark td:nth-child(3) {
+    padding-left: 30px;
+}
+.mark td:nth-child(even) {
+    text-align: center;
+}
