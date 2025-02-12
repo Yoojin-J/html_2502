@@ -1,0 +1,153 @@
+.ex1 > p {
+    outline-color: red;
+    outline-width: 7px;
+}
+p.dotted {
+    outline-style: dotted;
+}
+p.dashed {
+    outline-style: dashed;
+}
+p.solid {
+    outline-style: solid;
+}
+p.double {
+    outline-style: double;
+}
+p.groove {
+    outline-style: groove;
+}
+p.ridge {
+    outline-style: ridge;
+}
+p.inset {
+    outline-style: inset;
+}
+p.outset {
+    outline-style: outset;
+}
+
+
+section.ex2 > p.ex1 {
+    border: 1ps solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thin;
+}
+section.ex2 > p.ex2 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: medium;
+}
+section.ex2 > p.ex3 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thick;
+}
+section.ex2 > p.ex4 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: 4px;
+}
+
+
+section.ex3 > p.ex1 {
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: red;
+}
+section.ex3 > p.ex2 {
+    border: 2px solid black;
+    outline-style: dotted;
+    outline-color: blue;
+}
+section.ex3 > p.ex3 {
+    border: 2px solid black;
+    outline-style: outset;
+    outline-color: grey;
+}
+
+
+section.ex4 > p.ex1 {
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: #ff0000;
+}
+section.ex4 > p.ex2 {
+    border: 2px solid black;
+    outline-style: dotted;
+    outline-color: #0000ff;
+}
+section.ex4 > p.ex3 {
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: #bbbbbb;
+}
+
+
+section.ex5 > p.ex1 {
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: rgb(255, 0, 0);
+}
+section.ex5 > p.ex2 {
+    border: 2px solid black;
+    outline-style: dotted;
+    outline-color: rgb(0, 0, 255);
+}
+section.ex5 > p.ex3 {
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: rgb(187, 187, 187);
+}
+
+
+section.ex6 > p.ex1 {
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: hsl(0, 100%, 50%);
+}
+section.ex6 > p.ex2 {
+    border: 2px solid black;
+    outline-style: dotted;
+    outline-color: hsl(240, 100%, 50%);
+}
+section.ex6 > p.ex3 {
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: hsl(0, 0%, 73%);
+}
+
+
+section.ex7 > p.ex1 {
+    outline: dashed;
+}
+section.ex7 > p.ex2 {
+    outline: dotted red;
+}
+section.ex7 > p.ex3 {
+    outline: 5px solid yellow;
+}
+section.ex7 > p.ex4 {
+    outline: thick ridge pink;
+}
+
+
+section.ex8 > p {
+    margin: 30px;
+    border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 15px;
+}
+
+
+section.ex9 > p {
+    margin: 30px;
+    background: yellow;
+    border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 15px;
+}
