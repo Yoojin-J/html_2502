@@ -1,0 +1,45 @@
+section.quiz1 span.quiz1 {
+    font-weight: 700;
+    font-size: large;
+}
+
+
+section.quiz2 ul {
+    list-style-type: none;
+    line-height: 200%;
+}
+section.quiz2 span.quiz2 {
+    font-weight: 700;
+    color: #ad3000;
+}
+
+
+section.quiz3 .container {
+    text-align: center;
+    background-color: #777777;
+}
+section.quiz3 h1 {
+    color: #ffffff;
+    text-shadow: 3px 2px 5px #000000;
+}
+
+section.quiz4 * {
+    font-family: 맑은 고딕, 돋움;
+}
+section.quiz4 div.ph {
+    width: 700px;
+}
+section.quiz4 img {
+    float: left;
+}
+section.quiz4 h1 {
+    font-size: 17px;
+}
+section.quiz4 p {
+    font-size: 16px;
+    line-height: 25px;
+}
+section.quiz4 .accent {
+    font-weight: bold;
+    color: red;
+}
