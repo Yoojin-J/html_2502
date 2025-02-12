@@ -14,6 +14,16 @@
 }
 
 
-.ex3 ul {
+.ex3 > ul {
     list-style-image: url('../images/dot.png');
+}
+
+
+.ex4 > .inside {
+    list-style-position: inside;
+}
+
+
+.ex5 > ul {
+    list-style-type: none;
 }
