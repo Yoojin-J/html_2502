@@ -1,0 +1,47 @@
+.ex1 > .align-left {
+    text-align: left;
+}
+.ex1 > .align-right {
+    text-align: right;
+}
+.ex1 > .align-center {
+    text-align: center;
+}
+.ex1 > .align-justify {
+    text-align: justify;
+}
+
+
+.ex2 > .indent1 {
+    text-indent: 15px;
+}
+.ex2 > .indent2 {
+    text-indent: 5%;
+}
+
+
+.ex3 > .small-line {
+    line-height: 0.7;
+}
+.ex3 > .big-line {
+    line-height: 2;
+}
+
+
+.ex4 > .content {
+    border: 1px solid #ccc;
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ex4 > .content:hover {
+    overflow: visible;
+}
+
+
+.ex5 > p {
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+}
