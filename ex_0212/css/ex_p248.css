@@ -1,0 +1,19 @@
+.ex1 > .sqbullet {
+    list-style-type: square;
+}
+.ex1 > .nobullet {
+    list-style-type: none;
+}
+
+
+.ex2 > .book1 {
+    list-style-type: lower-alpha;
+}
+.ex2 > .book2 {
+    list-style-type: upper-roman;
+}
+
+
+.ex3 ul {
+    list-style-image: url('images/dot.png');
+}
