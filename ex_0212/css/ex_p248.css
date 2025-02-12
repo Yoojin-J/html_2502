@@ -15,5 +15,5 @@
 
 
 .ex3 ul {
-    list-style-image: url('images/dot.png');
+    list-style-image: url('../images/dot.png');
 }
