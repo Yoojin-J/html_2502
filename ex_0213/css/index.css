@@ -1,0 +1,290 @@
+.ex0 div {
+    border: 1px solid gray;
+    padding: 8px;
+}
+.ex0 h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+}
+.ex0 p {
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+}
+a {
+    text-decoration: none;
+    color: #008CBA;
+}
+
+
+section.ex1 p {
+    color: blue;
+}
+section.ex1 h1 {
+    color: green;
+}
+
+
+.ex2 {
+    background-color: lightgrey;
+    color: blue;
+}
+.ex2 h1 {
+    background-color: black;
+    color: white;
+}
+.ex2 div {
+    background-color: blue;
+    color: white;
+}
+
+
+.ex3 h1 {
+    text-align: center;
+}
+.ex3 h2 {
+    text-align: left;
+}
+.ex3 h3 {
+    text-align: right;
+}
+
+
+.ex4 div {
+    border: 1px solid black;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    text-align: justify;
+}
+
+
+.ex5 p.a {
+    text-align-last: right;
+}
+.ex5 p.b {
+    text-align-last: center;
+}
+.ex5 p.c {
+    text-align-last: justify;
+}
+
+
+.ex6 p.ex1 {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+.ex6 p.ex1_1 {
+    direction: rtl;
+}
+.ex6 p.ex1_2 {
+    unicode-bidi: bidi-override;
+}
+
+.ex7 p {
+    font-size: 80px;
+}
+.ex7 img.a {
+    vertical-align: baseline;
+}
+.ex7 img.b {
+    vertical-align: text-top;
+}
+.ex7 img.c {
+    vertical-align: text-bottom;
+}
+.ex7 img.d {
+    vertical-align: sub;
+}
+.ex7 img.e {
+    vertical-align: super;
+}
+
+
+.ex8 h1 {
+    text-decoration: overline;
+}
+.ex8 h2 {
+    text-decoration: line-through;
+}
+.ex8 h3 {
+    text-decoration: underline;
+}
+.ex8 p.ex {
+    text-decoration: overline underline;
+}
+
+
+.ex9 h1 {
+    text-decoration-line: overline;
+    text-decoration-color: red;
+}
+.ex9 h2 {
+    text-decoration-line: line-through;
+    text-decoration-color: blue;
+}
+.ex9 h3 {
+    text-decoration-line: underline;
+    text-decoration-color: green;
+}
+.ex9 p {
+    text-decoration-line: overline underline;
+    text-decoration-color: purple;
+}
+.ex9 .a {
+    text-decoration-line: line-through;
+    text-decoration-color: blue;
+}
+.ex9 .b {
+    text-decoration-line: underline;
+    text-decoration-color: green;
+}
+
+
+.ex10 h1 {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+.ex10 h2 {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+.ex10 h3 {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+.ex10 p.ex1 {
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+}
+.ex10 p.ex2 {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+.ex10 p.ex3 {
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+}
+
+
+.ex11 h1 {
+    text-decoration-line: underline;
+    text-decoration-thickness: auto;
+}
+.ex11 h2 {
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+}
+.ex11 h3 {
+    text-decoration-line: underline;
+    text-decoration-thickness: 25%;
+}
+.ex11 p {
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-style: double;
+    text-decoration-thickness: 5px;
+}
+
+
+.ex12 h1 {
+    text-decoration: underline;
+}
+.ex12 h2 {
+    text-decoration: underline red;
+}
+.ex12 h3 {
+    text-decoration: underline red double;
+}
+.ex12 p {
+    text-decoration: underline red double 5px;
+}
+
+
+.ex13 a {
+    text-decoration: none;
+}
+
+
+.ex14 p.uppercase {
+    text-transform: uppercase;
+}
+.ex14 p.lowercase {
+    text-transform: lowercase;
+}
+.ex14 p.capitalize {
+    text-transform: capitalize;
+}
+
+
+.ex15 p {
+    text-indent: 50px;
+}
+
+
+.ex16 h2 {
+    letter-spacing: 5px;
+}
+.ex16 h3 {
+    letter-spacing: -2px;
+}
+
+
+.ex17 p.small {
+    line-height: 0.7;
+}
+.ex17 p.big {
+    line-height: 1.8;
+}
+
+
+.ex18 p.one {
+    word-spacing: 10px;
+}
+.ex18 p.two {
+    word-spacing: -2px;
+}
+
+
+.ex19 p {
+    white-space: nowrap;
+}
+
+
+.ex20 h1 {
+    text-shadow: 2px 2px;
+}
+
+
+.ex21 h1 {
+    text-shadow: 2px 2px red;
+}
+
+
+.ex22 h1 {
+    text-shadow: 2px 2px 5px red;
+}
+
+
+.ex23 h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+.ex24 h1 {
+    text-shadow: 0 0 3px #FF0000;
+}
+
+
+.ex25 h1 {
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+
+.ex26 h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
