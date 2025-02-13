@@ -1,0 +1,149 @@
+div {
+    width: 100%;
+    height: 500px;
+}
+
+
+.ex1 .grad {
+    /* css3 미지원 브라우저*/
+    background: blue;
+    /* 초기 모던 브라우저 (이 밑에 3개 다) */
+    /* (시작 위치, 시작색, 끝 색) */
+    background: -webkit-linear-gradient(left top, blue, white);
+    /* (끝 위치, 시작색, 끝 색) (이 밑 2개)*/
+    background: -moz-linear-gradient(right bottom, blue, white);
+    background: -o-linear-gradient(right bottom, blue, white);
+    /* 최신 모던 브라우저*/
+    /* (그라데이션 방향, 시작색, 끝 색) */
+    background: linear-gradient(to right bottom, blue, white);
+}
+
+
+.ex2 .grad {
+    /* css3 미지원 브라우저*/
+    background: #ff0000;
+    /* 초기 모던 브라우저 (이 밑에 3개 다) */
+    /* (끝부분 각도, 시작 색상, 끝 색상) */
+    background: -webkit-linear-gradient(45deg, #ff0000, #ffffff);
+    background: -moz-linear-gradient(45deg, #ff0000, #ffffff);
+    background: -o-linear-gradient(45deg, #ff0000, #ffffff);
+    /* 최신 모던 브라우저*/
+    background: linear-gradient(45deg, #ff0000, #ffffff);
+}
+
+
+.ex3 .grad {
+    /* css3 미지원 브라우저*/
+    background: #06f;
+    /* 초기 모던 브라우저 (이 밑에 3개 다) */
+    /* (시작 위치, 시작 색상, 중지 점 색상과 위치, 끝 색상) */
+    background-image: -webkit-linear-gradient(top, #06f, white 30%, #06f);
+    /* (끝 위치, 시작 색상, 중지 점 색상과 위치, 끝 색상) */
+    background-image: -moz-linear-gradient(bottom, #06f, white 30%, #06f);
+    background: -o-linear-gradient(bottom, #06f, white 30%, #06f);
+    /* 최신 모던 브라우저*/
+    background: linear-gradient(to bottom, #06f, white 30%, #06f);
+}
+
+
+.ex4 .grad1 {
+    /* 모양 지정 x */
+    background: red;
+
+    background: -webkit-radial-gradient(white, yellow, red);
+    background: -moz-radial-gradient(white, yellow, red);
+    background: -moz-radial-gradient(white, yellow, red);
+
+    background: radial-gradient(white, yellow, red);
+}
+.ex4 .grad2 {
+    /* 모양 지정 o */
+    background: red;
+
+    background: -webkit-linear-gradient(circle, white, yellow, red);
+    background: -moz-radial-gradient(circle, white, yellow, red);
+    background: -moz-radial-gradient(circle, white, yellow, red);
+
+    background: radial-gradient(circle, white, yellow, red);
+}
+
+
+.ex5 .grad {
+    background: blue;
+
+    /* (위치 위치(기준은 좌측상단), 모양, 색, 색) */
+    background: -webkit-radial-gradient(10% 10%, circle, white, blue);
+    background: -moz-radial-gradient(10% 10%, circle, white, blue);
+    background: -o-radial-gradient(10% 10%, circle, white, blue);
+
+    background: radial-gradient(circle at 10% 10%, white, blue);
+}
+
+
+.ex6 #div1 {
+    background: darkgreen;
+
+    background: -webkit-radial-gradient(30% 40%, circle closest-side, white, yellow, green);
+    background: -moz-radial-gradient(30% 40%, circle closest-side, white, yellow, green);
+    background: -o-radial-gradient(30% 40%, circle closet-side, white, yellow, green);
+
+    background: radial-gradient(circle closest-side at 30% 40%, white, yellow, green);
+}
+.ex6 #div2 {
+    background: darkgreen;
+
+    background: -webkit-radial-gradient(30% 40%, circle closest-corner, white, yellow, green);
+    background: -moz-radial-gradient(30% 40%, circle closest-corner, white, yellow, green);
+    background: -o-radial-gradient(30% 40%, circle closet-corner, white, yellow, green);
+
+    background: radial-gradient(circle closest-corner at 30% 40%, white, yellow, green);
+}
+.ex6 #div3 {
+    background: darkgreen;
+
+    background: -webkit-radial-gradient(30% 40%, circle farthest-side, white, yellow, green);
+    background: -moz-radial-gradient(30% 40%, circle farthest-side, white, yellow, green);
+    background: -o-radial-gradient(30% 40%, circle farthest-side, white, yellow, green);
+
+    background: radial-gradient(circle farthest-side at 30% 40%, white, yellow, green);
+}
+.ex6 #div4 {
+    background: darkgreen;
+
+    background: -webkit-radial-gradient(30% 40%, circle farthest-corner, white, yellow, green);
+    background: -moz-radial-gradient(30% 40%, circle farthest-corner, white, yellow, green);
+    background: -o-radial-gradient(30% 40%, circle farthest-corner, white, yellow, green);
+
+    background: radial-gradient(circle farthest-corner at 30% 40%, white, yellow, green);
+}
+
+
+.ex7 .grad1 {
+    background: skyblue;
+
+    background: -webkit-radial-gradient(red, yellow, skyblue);
+    background: -moz-radial-gradient(red, yellow, skyblue);
+    background: -o-radial-gradient(red, yellow, skyblue);
+    /* (red 0%, yellow 50%, skyblue 100%) */
+    background: radial-gradient(red, yellow, skyblue);
+}
+.ex7 .grad2 {
+    background: skyblue;
+
+    background: -webkit-radial-gradient(red, yellow 20%, skyblue);
+    background: -moz-radial-gradient(red, yellow 20%, skyblue);
+    background: -o-radial-gradient(red, yellow 20%, skyblue);
+    /* (red 0%, yellow 20%, skyblue 100%) */
+    background: radial-gradient(red, yellow 20%, skyblue);
+}
+
+
+.ex8 .grad1 {
+    background: red;
+
+    background: -webkit-repeating-linear-gradient(yellow, red 20px);
+    background: -moz-repeating-linear-gradient(yellow, red 20px);
+    background: -o-repeating-linear-gradient(yellow, red 20px);
+
+    background: repeating-linear-gradient(yellow, red 20px);
+}
