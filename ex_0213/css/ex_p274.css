@@ -147,3 +147,22 @@ div {
 
     background: repeating-linear-gradient(yellow, red 20px);
 }
+.ex8 .grad2 {
+    background: red;
+
+    background: -webkit-repeating-linear-gradient(yellow, yellow 20px, red 20px, red 40px);
+    background: -moz-repeating-linear-gradient(yellow, yellow 20px, red 20px, red 40px);
+    background: -o-repeating-linear-gradient(yellow, yellow 20px, red 20px, red 40px);
+
+    background: repeating-linear-gradient(yellow, yellow 20px, red 20px, red 40px);
+}
+.ex8 .grad3 {
+    background: red;
+
+    background: repeating-radial-gradient(circle, white, #ccc 10%);
+}
+.ex8 .grad4 {
+    background: red;
+
+    background: repeating-radial-gradient(circle, white, white 10%, #ccc 10%, #ccc 20%);
+}
