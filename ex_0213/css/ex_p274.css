@@ -166,3 +166,8 @@ div {
 
     background: repeating-radial-gradient(circle, white, white 10%, #ccc 10%, #ccc 20%);
 }
+
+
+.ex9 div {
+    background: linear-gradient(to bottom, green, white);
+}
