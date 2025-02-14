@@ -1,0 +1,250 @@
+.ex2 .box1 {
+    width: 400px;
+    height: 100px;
+    background: #ff6a00;
+}
+.ex2 .box2 {
+    width: 50%;
+    height: 100px;
+    background: #0094ff;
+}
+.ex2 div {
+    margin: 10px;
+}
+
+
+.ex3 #block img {
+    display: block;
+    margin: 10px;
+}
+
+
+.ex4 nav ul li {
+    display: inline;
+}
+.ex4 li {
+    border-top: 2px solid black;
+
+    margin: 0 10px;
+    padding: 5px 10px;
+}
+.ex4 a:link, .ex4 a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+
+.ex5 nav ul li {
+    display: inline-block;
+    margin: 20px;
+}
+.ex5 ul {
+    background-color: #335377;
+}
+.ex5 a:link, .ex5 a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+
+.ex6 div {
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    display: inline-block;
+}
+
+
+.ex7 div {
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    margin: 15px;
+    border-width: 5px;
+}
+.ex7 .box1 {
+    border-style: solid;
+}
+.ex7 .box2 {
+    border-style: dotted;
+}
+.ex7 .box3 {
+    border-style: dashed;
+}
+
+
+.ex8 div {
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    margin: 15px;
+    border-style: dashed;
+    border-width: 2px;
+}
+.ex8 .box1 {
+    border-color: red;
+}
+.ex8 .box2 {
+    border-color: blue;
+}
+
+
+.ex9 h1 {
+    padding-bottom: 5px;
+    border-bottom: 3px solid #ccc;
+}
+.ex9 p {
+    padding: 10px;
+    border: 3px dotted black;
+}
+
+
+.ex10 div.inline {
+    width: 250px;
+    height: 200px;
+
+    display: inline-block;
+}
+.ex10 .round {
+    border: 2px solid red;
+    border-radius: 20px;
+}
+.ex10 .round1 {
+    border: 2px solid blue;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.ex10 .round2 {
+    background: #0c78c8;
+    border-radius: 20px 70px;
+}
+.ex10 #bg {
+    background: url('../images/pic1.jpg') no-repeat;
+    background-size: cover;
+}
+
+
+.ex11 div {
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    margin: 15px;
+    background: #ffd800;
+    border: 2px solid;
+}
+.ex11 .round1 {
+    border-top-left-radius: 100px 50px;
+}
+.ex11 .round2 {
+    border-bottom-right-radius: 50% 30%;
+}
+.ex11 .round3 {
+    border-top-right-radius: 50px;
+}
+
+
+.ex12 div {
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    margin: 15px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+.ex12 .box1 {
+    box-shadow: 2px -2px 5px 0px black;
+}
+.ex12 .box2 {
+    box-shadow: 5px 5px 15px 5px gray;
+}
+
+
+.ex13 div {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border: 3px solid red;
+    border-radius: 50%;
+}
+
+
+.ex14 div {
+    width: 200px;
+    height: 100px;
+    background: #0094ff;
+}
+.ex14 .box1 {
+    margin: 30px 50px 30px 50px;
+}
+.ex14 .box2 {
+    margin: 30px 50px;
+}
+.ex14 .box3 {
+    margin: 50px;
+}
+.ex14 .box4 {
+    margin: 30px 5px 10px;
+}
+
+
+.ex15 div {
+    width: 200px;
+    height: 350px;
+
+    background-color: #ff6a00;
+}
+.ex15 .box {
+    margin: 0 auto;
+}
+
+
+.ex16 div {
+    width: 200px;
+    height: 100px;
+    margin: 30px;
+}
+.ex16 #box1 {
+    background: rgb(0, 77, 243);
+}
+.ex16 #box2 {
+    background: rgb(255, 72, 0);
+}
+.ex16 #box3 {
+    background: rgb(18, 219, 0);
+}
+
+
+.ex17 div {
+    width: 200px;
+    height: 100px;
+    margin: 30px;
+    display: inline-block;
+}
+.ex17 #box1 {
+    background: rgb(0, 77, 243);
+}
+.ex17 #box2 {
+    background: rgb(255, 72, 0);
+}
+.ex17 #box3 {
+    background: rgb(18, 219, 0);
+}
+
+
+.ex18 div {
+    width: 200px;
+    height: auto;
+    background: #0094ff;
+    display: inline-block;
+    margin: 15px;
+    color: white;
+}
+.ex18 .box1 {
+    padding: 10px 30px 10px 30px;
+}
+.ex18 .box2 {
+    padding: 10px 30px;
+}
+.ex18 .box3 {
+    padding: 10px;
+}

@@ -1,0 +1,20 @@
+.ex1 div {
+    width: 300px;
+    height: 200px;
+
+    border-width: 5px 20px 10px 15px;
+    border-style: solid;
+    border-color: black;
+}
+
+
+.ex2 ul {
+    list-style-type: none;
+}
+.ex2 li {
+    display: inline;
+
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin: 10px;
+}
