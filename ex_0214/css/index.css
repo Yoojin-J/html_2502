@@ -1,0 +1,174 @@
+th, td {
+    border-bottom: 1px solid grey;
+}
+th {
+    padding: 10px 0;
+}
+td {
+    padding: 5px 30px;
+}
+
+
+.ex1 .p1 {
+    font-family: 'Amatic SC', 'Times New Roman', Times, serif;
+}
+.ex1 .p2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ex1 .p3 {
+    font-family: 'Lucida Console', 'Courier New', monospace;
+}
+
+
+.ex2 p {
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+
+section.ex3 {
+    font-family: Arial, sans-serif;
+}
+
+
+section.ex4 {
+    font-family: Verdana, sans-serif;
+}
+
+
+section.ex5 {
+    font-family: Tahoma, sans-serif;
+}
+
+
+section.ex6 {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+
+section.ex7 {
+    font-family: 'Times New Roman', serif;
+}
+
+
+section.ex8 {
+    font-family: Georgia, serif;
+}
+
+
+section.ex9 {
+    font-family: Garamond, serif;
+}
+
+
+section.ex10 {
+    font-family: 'Courier New', monospace;
+}
+
+
+section.ex11 {
+    font-family: 'Brush Script MT', cursive;
+}
+
+
+.ex12 .times {
+    font-family: 'Times New Roman', Times, serif;
+}
+.ex12 .georgia {
+    font-family: Georgia, serif;
+}
+.ex12 .garamond {
+    font-family: Garamond, serif;
+}
+.ex12 .arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ex12 .tahoma {
+    font-family: Tahoma, Verdana, sans-serif;
+}
+.ex12 .trebuchet {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+.ex12 .geneva {
+    font-family: geneva, verdana, sans-serif;
+}
+.ex12 .courier {
+    font-family: 'Courier New', Courier, monospace;
+}
+.ex12.brush {
+    font-family: 'Brush Script MT', cursive;
+}
+.ex12 .copperplate {
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+
+.ex13 p.normal {
+    font-style: normal;
+}
+.ex13 p.italic {
+    font-style: italic;
+}
+.ex13 p.oblique {
+    font-style: oblique;
+}
+
+
+.ex14 p.normal {
+    font-weight: normal;
+}
+.ex14 p.light {
+    font-weight: lighter;
+}
+.ex14 p.thick {
+    font-weight: bold;
+}
+.ex14 p.thicker {
+    font-weight: 900;
+}
+
+
+.ex15 p.normal {
+    font-variant: normal;
+}
+.ex15 p.small {
+    font-variant: small-caps;
+}
+
+
+.ex16 h1 {
+    font-size: 40px;
+}
+.ex16 h2 {
+    font-size: 30px;
+}
+.ex16 p {
+    font-size: 14px;
+}
+
+
+.ex17 h1 {
+    /* 40px/16 = 2.5em */
+    font-size: 2.5em;
+}
+.ex17 h2 {
+    /* 30px/16 = 1.875em */
+    font-size: 1.875em;
+}
+.ex17 p {
+    /* 14px/16 = 0.875em */
+    font-size: 0.875em;
+}
+
+
+section.ex18 {
+    font-size: 100%;
+}
+.ex18 h1 {
+    font-size: 2.5em;
+}
+.ex18 h2 {
+    font-size: 1.875em;
+}
+.ex18 p {
+    font-size: 0.875em;
+}
