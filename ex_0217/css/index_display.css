@@ -1,0 +1,112 @@
+.ex1 li {
+    display: inline;
+}
+
+.ex2 span {
+    display:block;
+}
+
+.ex3 a {
+    display: block;
+}
+
+.ex4 h1.hidden {
+    display: none;
+}
+
+.ex5 h1.hidden {
+    visibility: hidden;
+}
+
+.ex6 div.ex6_1 {
+    width: 500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+}
+.ex6 div.ex6_2 {
+    max-width: 500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+}
+
+.ex7 div.static {
+    position: static;
+    border: 3px solid #73AD21;
+}
+
+.ex8 div.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+}
+
+.ex9 div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+}
+
+.ex10 div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+}
+.ex10 div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+}
+
+.ex11 div.sticky {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+}
+
+.ex12 .container {
+    position: relative;
+}
+.ex12 .topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+.ex12 .topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+.ex12 .bottomleft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+.ex12 .bottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+.ex12 .center {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+.ex12 img {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}

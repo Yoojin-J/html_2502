@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display</title>
+
+    <link rel="stylesheet" href="./css/index_display.css">
+
+</head>
+<body>
+    <section class="ex1">
+        <p>Display a list of links as a horizontal menu:</p>
+        <ul>
+            <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML</a></li>
+            <li><a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS</a></li>
+            <li><a href="https://www.w3schools.com/js/default.asp" target="_blank">JavaScript</a></li>
+        </ul>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex2">
+        <h1>Display sapn elements as block elements</h1>
+
+        <span>A display property with</span> <span>a value of "block" results in</span> <span>a line break between each span elements.</span>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex3">
+        <h1>Display links as block elements</h1>
+
+        <a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML</a>
+        <a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS</a>
+        <a href="https://www.w3schools.com/js/default.asp" target="_blank">JavaScript</a>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex4">
+        <h1>This is a visible heading</h1>
+        <h1 class="hidden">This is a hedden heading</h1>
+        <p>Notice that the h1 element with display: none; dose not take up any space.</p>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex5">
+        <h1>This is a visible heading</h1>
+        <h1 class="hidden">This is a hidden heading</h1>
+        <p>Notice that the hidden heading still takes up space.</p>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex6">
+        <h2>CSS Max-width</h2>
+
+        <div class="ex6_1">This div element has width: 500px;</div>
+        <br>
+        <div class="ex6_2">This div element has max-width: 500px;</div>
+
+        <p><strong>Tip:</strong> Drag the browser window to smaller than 500px wide, to see the difference between the two divs!</p>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex7">
+        <h2>position: static;</h2>
+
+        <p>An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page:</p>
+
+        <div class="static">
+            this div element has position: static;
+        </div>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex8">
+        <h2>position: relative;</h2>
+
+        <p>An element with position: relative; is positioned relative to its normal position:</p>
+
+        <div class="relative">
+            This div element has position: relative;
+        </div>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex9">
+        <h2>position: fixed</h2>
+
+        <p>An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled:</p>
+
+        <div class="fixed">
+            This div element has position: fixed;
+        </div>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex10">
+        <h2>position: absolute;</h2>
+
+        <p>An element with position: absolute; is positioned relative to the nearest postitioned ancestor (instead of positioned relative to the viewport, like fixed):</p>
+
+        <div class="relative">
+            This div element has position: relative;
+            <div class="absolute">This div element has position: absolute;</div>
+        </div>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex11">
+        <p>Try to <b>scroll</b> inside this frame to understand how sticky positioning works.</p>
+
+        <div class="sticky">I am sticky!</div>
+
+        <div style="padding-bottom: 2000px;">
+            <p>In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.</p>
+            <p>Scroll back up to remove the stickyness.</p>
+            <p>some text to enable scrolling.. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis ratione, aperiam assumenda neque illo aliquid repudiandae corrupti. Nisi nam architecto, laboriosam cupiditate temporibus eaque placeat maxime sequi fugit, aspernatur culpa!
+            Voluptate eveniet libero dolor inventore est nisi aspernatur ipsam aliquam quia reprehenderit dolore, repellendus laborum magnam, facere itaque quisquam fugiat ducimus, corporis quasi autem laboriosam optio architecto commodi minus. Molestiae.</p>
+            <p>Some text to enable scrolling.. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, vel alias esse temporibus assumenda quo error illo ipsa quis cum unde vitae iusto numquam vero odio nulla hic, enim dolores.
+            Aspernatur, quaerat dolorem aliquam molestiae veritatis saepe esse optio molestias obcaecati? Consequuntur nisi placeat iure expedita quia est, autem labore ipsum nemo, in hic velit voluptates ducimus. Itaque, ea numquam.
+            Inventore esse quos sint laborum quibusdam asperiores deserunt molestias, aspernatur excepturi alias commodi cum repellendus reprehenderit, possimus optio incidunt consequuntur, dicta ab atque. Incidunt consectetur nobis culpa esse sed error.</p>
+        </div>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex12">
+        <h2>Image Text</h2>
+        <p>Add some text to an image in the top left corner:</p>
+
+        <div class="container">
+            <img src="./images/img_5terre_wide.jpg" alt="Cinque Terre" width="1000" height="300">
+            <div class="topleft">Top Left</div>
+            <div class="topright">Top Right</div>
+            <div class="bottomleft">Bottom Left</div>
+            <div class="bottomright">Bottom Right</div>
+            <div class="center">Centered</div>
+        </div>
+    </section>
+</body>
+</html>
