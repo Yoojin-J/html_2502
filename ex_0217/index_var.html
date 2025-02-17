@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+<body>
+    <section class="ex1">
+        <h1>JavaScript Variables</h1>
+
+        <p>In this example, s, y, and z are undeclared.</p>
+        <p>They are automatically declared when first used.</p>
+        <p>와 대박 선언을 안해도 자동으로 선언해준대, 간편! 자동선언!</p>
+
+        <p id="demo1"></p>
+
+        <script>
+            x = 5;
+            y= 6;
+            z = x + y;
+            document.getElementById("demo1").innerHTML = "The value of z is: : " + z;
+        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex2">
+        <h1>JavaScript Variables</h1>
+        
+        <p>In this example x, y, and z are variables.</p>
+        <p id="demo2"></p>
+
+        <script>
+            var x2 = 5;
+            var y2 = 6;
+            var z2 = x2 + y2;
+            document.getElementById("demo2").innerHTML = "The value of z is: " + z2;
+        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex3">
+        <h1>JavaScript Variables</h1>
+
+        <p>In this example, x, y, and z are variables.</p>
+        <p id="demo3"></p>
+
+        <script>
+            let x3 = 5;
+            let y3 = 6;
+            let z3 = x3 + y3;
+            document.getElementById("demo3").innerHTML = "The value of z is: " + z3;
+        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex4">
+        <h1>JavaScript Variables</h1>
+
+        <p>In this example, x, y, and z are variables.</p>
+        <p id="demo4"></p>
+
+        <script>
+            const x4 = 5;
+            const y4 = 6;
+            const z4 = x4 + y4;
+            document.getElementById("demo4").innerHTML = "The value of z is: " + z4;
+        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex5">
+        <h1>JavaScript Variables</h1>
+
+        <p>In this example, price1, price2, and total are variables.</p>
+        <p id="demo5"></p>
+
+        <script>
+            const price1 = 5;
+            const price2 = 6;
+            let total = price1 + price2;
+            document.getElementById("demo5").innerHTML = "The total is: " + total;
+        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex6">
+        <h1>JavaScript Variables</h1>
+
+        <p>Strings are written with quotes.</p>
+        <p>Numbers are written without quotes.</p>
+        <p>선언할 때 String 타입은 ""랑 '' 쓴다는 이야기</p>
+        <p id="demo6"></p>
+
+        <script>
+            const PI = 3.14;
+            let person = "John Doe";
+            let answer = 'Yes I am!';
+
+            document.getElementById("demo6").innerHTML = PI + "<br>" + person + "<br>" + answer;
+        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex7">
+        <h1>JavaScript Variables</h1>
+
+        <p>뭔가 했더만 그냥 선언 이야기였음</p>
+        <p>Create a variable, assign a value to it, and display it:</p>
+        <p id="demo7"></p>
+
+        <script>
+            let carName = "Volov";
+            document.getElementById("demo7").innerHTML = carName;
+        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex8">
+        <h1>JavaScript Variables</h1>
+
+        <p>쉼표로 이어서 선언 가능 야호!</p>
+        <p>You and declare may variables in one statement.</p>
+        <p id="demo8"></p>
+
+        <script>
+            let person8 = "John Doe", carName8 = "Volvo", price8 = 200;
+            document.getElementById("demo8").innerHTML = carName8;
+        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex9">
+        <h1>JavaScript Variables</h1>
+
+        <p>쉼표 붙인채로 줄바꾸면서 선언도 된대 근데 굳이 이럴 필요가 있나...?</p>
+        <p>You can declare many variables in one statement.</p>
+        <p id="demo9"></p>
+
+        <script>
+            let person9 = "John Doe",
+            carName9 = "Volvo",
+            price9 = 200;
+            
+            console.log(carName9);
+
+            document.getElementById("demo9").innerHTML = carName9;
+        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex10">
+        <h1>JavaScript Variables</h1>
+
+        <p>A variable without a value has the value of:</p>
+        <p id="demo10"></p>
+
+        <script>
+            let carName10;
+            document.getElementById("demo10").innerHTML = carName10;
+        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex11">
+        <h1>JavaScript Variables</h1>
+
+        <p>If you re-declare a JavaScript variable, it will not lose its value.</p>
+        <p id="demo11"></p>
+
+        <script>
+            var carName11 = "Volvo";
+            var carName11;
+            document.getElementById("demo11").innerHTML = carName11;
+        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex12">
+        <h1>JavaScript Variables</h1>
+
+        <p>The result of adding 5 + 2 + 3 is:</p>
+        <p id="demo12"></p>
+
+        <script>
+            let x = 5 + 2 + 3;
+            document.getElementById("demo12").innerHTML = x;
+        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex13">
+        <h1>JavaScript Variables</h1>
+
+        <p>The result of adding "John" + " " + "Doe" is:</p>
+        <p id="demo13"></p>
+
+        <script>
+            let x13 = "John" + " " + "Doe";
+            document.getElementById("demo13").innerHTML = x13;
+        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex14">
+        <h1>JavaScript Variables</h1>
+
+        <p>아 얘 문자랑 숫자 +으로 이으면 숫자가 문자열로 형변환 되지</p>
+        <p>the result of adding "5" + 2 + 3 is:</p>
+        <p id="demo14"></p>
+
+        <script>
+            let x14 = "5" + 2 + 3;
+            document.getElementById("demo14").innerHTML = x14;
+        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex15">
+        <h1>JavaScript Variables</h1>
+
+        <p>문자열 다음에 숫자면 문자열로 변하고 문자열 등장 전까지는 숫자로 변환 안되는군 ㅇㅋ</p>
+        <p>the result of adding 2 + 3 + "5" is:</p>
+        <p id="demo15"></p>
+
+        <script>
+            let x15 = 2 + 3 + "5";
+            document.getElementById("demo15").innerHTML = x15;
+        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex16">
+        <h1>JavaScript Variables</h1>
+
+        <p>그니까 이게 왜 되는거지? 진짜 언제봐도 신기함 </p>
+        <p>The dollar sign is treated as a letter in JavaScript names.</p>
+        <p id="demo16"></p>
+
+        <script>
+            let $$$ = 2;
+            let $myMoney = 5;
+            document.getElementById("demo16").innerHTML = $$$ + $myMoney;
+        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex17">
+        <h1>JavaScript Variables</h1>
+
+        <p>The underscore is treated as a letter in JavaScript names.</p>
+        <p id="demo17"></p>
+
+        <script>
+            let _x = 2;
+            let _100 = 5;
+
+            document.getElementById("demo17").innerHTML = _x + _100;
+        </script>
+    </section>
+</body>
+</html>
