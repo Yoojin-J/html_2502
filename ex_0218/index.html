@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom</title>
+</head>
+<body>
+    <section class="ex1">
+        <h2>My First Page</h2>
+        <p id="demo1"></p>
+
+        <script>
+            document.getElementById("demo1").innerHTML = "Hello World!";
+        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex2">
+        <h2>JavaScript HTML DOM</h2>
+
+        <p id="intro">Finding HTML Elements by Id</p>
+        <p>This example demonstrates the <b>getElementsById</b> method.</p>
+
+        <p id="demo2"></p>
+
+        <script>
+            const element2 = document.getElementById("intro");
+
+            document.getElementById("demo2").innerHTML = "The text from the intro paragraph is: " + element2.innerHTML;        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex3">
+        <h2>JavaScript HTML DOM</h2>
+
+        <p>Finding HTML Elements by Tag Name.</p>
+        <p>This example demonstrates the <b>getElementsByTagName</b> method.</p>
+
+        <p id="demo3"></p>
+
+        <script>
+            const element3 = document.getElementsByTagName("p");
+            
+            document.getElementById("demo3").innerHTML = 'The text in first paragraph (index 0) is: ' + element3[0].innerHTML;
+        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex4">
+        <h2>JavaScript HTML DOM</h2>
+
+        <div id="main">
+            <p>Finding HTML Elements by Tag Name</p>
+            <p>This example demonstrates the <b>getElementsByTagName</b> method.</p>
+        </div>
+
+        <p id="demo4"></p>
+
+        <script>
+            const x = document.getElementById("main");
+            const y = x.getElementsByTagName("p");
+            console.log(y);
+            document.getElementById("demo4").innerHTML = 'The first paragraph (index 0) inside "main" is: ' + y[0].innerHTML;
+        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex5">
+        <h2>JavaScript HTML DOM</h2>
+
+        <p>Finding HTML Elements by Class Name.</p>
+        <p class="intro">Hello World!</p>
+        <p class="intro">This example demonstrates the <b>getElementsByClassName</b> method.</p>
+
+        <p id="demo5"></p>
+
+        <script>
+            const x5 = document.getElementsByClassName("intro");
+            
+            document.getElementById("demo5").innerHTML = 'The first paragraph (index 0) with class="intro" is: ' + x5[0].innerHTML; 
+        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex6">
+        <h2>JavaScript HTML DOM</h2>
+
+        <p>Finding HTML Elements by Query Selector</p>
+        <p class="intro">Hello World!.</p>
+        <p class="intro">This example demonstrates the <b>querySelectorAll</b> method.</p>
+
+        <p id="demo6"></p>
+
+        <script>
+            // css 문법 생각하면 됨
+            // class라서 p.intro인거고 위에 id 놈 검색할거면 p#intro 
+            const x6 = document.querySelectorAll("p.intro");
+
+            document.getElementById("demo6").innerHTML = 'The first paragraph (index 0) with class="intro" is: ' + x6[2].innerHTML;
+        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex7">
+        <h2>JavaScript HTML DOM</h2>
+
+        <p>Finding HTML Elements Using <b>document.forms</b></p>
+
+        <form id="frm1" action="">
+            First name: <input type="text" name="fname" value="Donald"><br>
+            Last name: <input type="text" name="lname" value="Duck"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+        <p>These are the values of each element in the form: </p>
+
+        <p id="demo7"></p>
+
+        <script>
+            const x7 = document.forms["frm1"];
+            let text7 = "";
+            for (let i = 0; i < x7.length; i++) {
+                text7 += x7.elements[i].value + "<br>";
+            }
+            document.getElementById("demo7").innerHTML = text7;
+        </script>
+    </section>
+</body>
+</html>
