@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>연산자</title>
+</head>
+<body>
+    <section class="ex1">
+        <h1>산술 연산자</h1>
+        <script>
+            var num1 = 15;
+            var num2 = 2;
+            var result; 
+
+            result = num1 + num2;
+            document.write(result, "<br>");     // 17
+            result = num1 - num2;
+            document.write(result, "<br>");     // 13
+            result = num1 * num2;
+            document.write(result, "<br>");     // 30
+            result = num1 / num2;
+            document.write(result, "<br>");     // 7.5
+            result = num1 % num2;
+            document.write(result, "<br>")      // 1
+        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex2">
+        <h1>문자 결합 연산자</h1>
+        <script>
+            var t1 = "학교종이";
+            var t2 = " 땡땡땡 ";
+            var t3 = 8282;
+            var t4 = " 어서 모이자";
+            var result;
+
+            result = t1 + t2 + t3 + t4;
+            document.write(result);
+        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex3">
+        <h1>템플릿 문자열 " ` ` "</h1>
+        <script>
+            const year = 2002;
+            const country = "대한민국";
+            const eventName = "월드컵";
+            const str_1 = `${year}년 ${country} ${eventName} 개최<br><br>`;
+
+            document.write(str_1);
+
+            const age = 10;
+            const afterYear = 10;
+
+            const str_2 = `현재 나이는 ${age}살이지만<br> ${afterYear}년 후에는 ${age + afterYear}살이 됩니다.`
+
+            document.write(str_2);
+        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex4">
+        <h1>대입 연산자</h1>
+        <script>
+            var num1 = 10;
+            var num2 = 3;
+
+            num1 += num2;   // num1 = num1 + num2;
+            document.write(num1, "<br>");
+
+            num1 -= num2;   // num1 = num1 - num2;
+            document.write(num1, "<br>");
+
+            num1 *= num2;   // num1 = num1 * num2;
+            document.write(num1, "<br>");
+
+            num1 %= num2;   // num1 = num1 % num2;
+            document.write(num1, "<br>");
+        </script>
+
+        <script>
+            var str = "<table border='1'>";
+            str += "<tr>";
+            str += "<td>1</td><td>2</td><td>3</td>";
+            str += "</tr>";
+            str += "</table>";
+            document.write(str);
+
+            var str1 = "우<br>아";
+            document.write(str1);
+        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex5">
+        <h1>증감 연산자</h1>
+        <script>
+            var num1 = 10;
+            var num2 = 20;
+            var result;
+
+            num1--;             // 9
+            document.write(num1, "<br>");
+
+            num1++;             // 10
+            document.write(num1, "<br>");
+
+            result = num2++;    // result에 20 대입 후 21
+            document.write(result, "<br>");
+
+            result = ++num2;    // 22
+            document.write(result, "<br>");
+        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex6">
+        <h1>비교 연산자</h1>
+        <script>
+            var a = 10;
+            var b = 20;
+            var c = 10;
+            var f = "20";
+            var result;
+
+            result = a > b;     // f
+            document.write(result, "<br>");
+
+            result = a < b;     // t
+            document.write(result, "<br>");
+
+            result = a <= b;    // t
+            document.write(result, "<br>");
+
+            result = b == f;    // t
+            document.write(result, "<br>");
+
+            result = a != b;    // t
+            document.write(result, "<br>");
+
+            result = b === f;   // f
+            document.write(result, "<br>");
+        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex7">
+        <h1>논리 연산자</h1>
+        <script>
+            var a = 10;
+            var b = 20;
+            var m = 30;
+            var n = 40;
+            var result;
+
+
+            result = a > b || b >= m || m > n;      // f || f || f
+            document.write(result, "<br>");         // f
+
+            result = a > b || b >= m || m <= n;     // f || f || t
+            document.write(result, "<br>");         // t
+
+            result = a <= b && b >= m && m <= n;    // t && f && t
+            document.write(result, "<br>");         // f
+
+            result = a <= b && b <= m && m <= n;    // t && t && t
+            document.write(result, "<br>");         // t
+            
+            result = !(a > b);                      // !(f)
+            document.write(result, "<br>");         // t
+
+            result = a > b || b < m && m < n;
+            document.write(result, "<br>");
+
+            result = a > b && b < m || m < n;
+            document.write(result, "<br>");
+        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex8">
+        <h1>삼항 조건 연산자</h1>
+        <script>
+
+            var a = 10;
+            var b = 3;
+
+            var result = a > b ? "javascript" : "hello";
+            document.write(result);
+        </script>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex9">
+        <h1>적정 체중을 구하는 테스트기 만들기</h1>
+
+        <script>
+            var userHeight = 180;
+            var userWeight = 74;
+
+            var normal_w = (userHeight - 100) * 0.9;
+            document.write(normal_w);
+        </script>
+        <br>
+
+        <h1>적정 체중 구하는 테스트기 만들기</h1>
+        <!--
+        <script>
+            var name = prompt("당신의 이름은?", "");
+            var height = prompt("당신의 신장은?", "0");
+            var weight = prompt("당신의 체중은?", 0);
+
+            var normal_w = (height - 100) * 0.9;
+            var result = weight >= normal_w - 5 && weight <= normal_w + 5;
+            result = result ? "적정 체중입니다." : "적정 체중이 아닙니다.";
+            //console.log(height, weight, normal_w);
+            document.write(name +"님은 " + result);
+        </script>
+        -->
+    </section>
+
+    <hr>
+    <hr>
+
+    <section class="ex10">
+        <h1>마무리 문제 1</h1>
+        
+        <script>
+            var price1 = 3000;
+            var price2 = 6000;
+            var price3 = 3000;
+
+            var sum = price1 + price2 + price3;
+            var result = sum > 10000 ? `${sum - 10000}원 초과` : "돈 관리 잘 했어요!";
+
+            document.write(result, "<br>");
+        </script>
+        <br>
+        
+        <script>
+            var b1 = 1200;
+            var b2 = 1300;
+            var b3 = 1000;
+            var b4 = Number(prompt("4분기 판매량", 0));
+
+            var avg = (b1 + b2 + b3 + b4) / 4;
+
+            var result = b4 >= avg ? "판매량이 평균 이상입니다." : "판매량이 평균 미달입니다.";
+            console.log(avg);
+            document.write(result, "<br>");
+            console.log(result);
+        </script>
+    </section>
+</body>
+</html>
