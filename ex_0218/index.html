@@ -133,6 +133,7 @@
             const x7 = document.forms["frm1"];
             let text7 = "";
             for (let i = 0; i < x7.length; i++) {
+                console.log(x7[i].value);
                 text7 += x7.elements[i].value + "<br>";
             }
             document.getElementById("demo7").innerHTML = text7;
