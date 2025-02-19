@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body onload="checkCookies()">
+    <section id="ex1">
+        <h1>JavaScript HTML Events</h1>
+        <h2>The onclick Attribute</h2>
+        <h2 onclick="this.innerHTML='Ooops!'">Click on this text!</h2>
+        <h2 onclick="changeText(this)">Click on this text!</h2>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section id="ex2">
+        <h1>JavaScript HTML Events</h1>
+        <h2>The on click Attribute</h2>
+
+        <p>click the button to display the date.</p>
+        <button onclick="displayDate()">The time is?</button>
+        
+        <p id="demo2"></p>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section id="ex3">
+        <h2>The onclick Events</h2>
+
+        <p>Click "Try it" to execute the displayDate() function.</p>
+        <button id="myBtn">Try it</button>
+
+        <p id="demo3"></p>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section id="ex4">
+        <h2>The onload Attribute</h2>
+
+        <p id="demo4"></p>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section id="ex5">
+        <h2>The oninput Attribute</h2>
+
+        Enter your name: <input type="text" id="fname" oninput="upperCase()">
+        <p>when you write in the input field, a function is triggered to transform the input to upper case.</p>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section id="ex6">
+        <h2>The onchange Attribute</h2>
+
+        Enter your name: <input type="text" id="fname6" onchange="upperCase6()">
+        <br>
+        Enter your name: <input type="text" id="fname6_1" onchange="upperCase6_1(this)">
+        <p>When you leave the input field, a function transforms the input to upper case.</p>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section id="ex7">
+        <h2>The onmouseover Attribute</h2>
+
+        <div onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color: #D94A38; width: 120px; height: 20px; padding: 40px;">
+            Mouse Over Me
+        </div>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section id="ex8">
+        <h2>The onmousedown Attribute</h2>
+
+        <div onmousedown="mDown(this)" onmouseup="mUp(this)" style="background-color: #D94A38; width: 90px; height: 20px; padding: 40px;">
+            Click Me
+        </div>
+    </section>
+    
+    <script src="./js/index_event.js"></script>
+</body>
+</html>
