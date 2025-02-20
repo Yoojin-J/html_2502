@@ -3,7 +3,7 @@ let d = document;
 
 // ex1
 var site = prompt("네이버, 다음, 네이트, 구글 중 \
-    즐겨 사용하는 포털 검색 사이트는?", "");
+즐겨 사용하는 포털 검색 사이트는?", "");
 var url;
 
 switch(site) {
