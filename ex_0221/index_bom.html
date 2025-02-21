@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Browser BOM</title>
+</head>
+<body>
+    <section id="ex1">
+        <h2>The window.location object</h2>
+        <h3>Window Location Href</h3>
+        <p id="demo1"></p>
+    </section>
+
+    <hr>
+
+    <section id="ex2">
+        <h3>Window Location Hostname</h3>
+        <p id="demo2"></p>
+    </section>
+
+    <hr>
+
+    <section id="ex3">
+        <h3>Window Location Pathname</h3>
+        <p id="demo3"></p>
+    </section>
+
+    <hr>
+
+    <section id="ex4">
+        <h3>Window Location Protocol</h3>
+        <p id="demo4"></p>
+    </section>
+
+    <hr>
+
+    <section id="ex5">
+        <h3>Window Location Port</h3>
+        <p id="demo5"></p>
+    </section>
+
+    <hr>
+
+    <section id="ex6">
+        <h3>Window Location Assign</h3>
+        <input type="button" value="Load new document" onclick="newDoc()">
+    </section>
+
+    <hr>
+    <hr>
+
+    <section id="ex7">
+        <h3>Window History Back</h3>
+        <input type="button" value="Back" onclick="goBack()">
+
+        <hr>
+
+        <h3>Window History forward</h3>
+        <input type="button" value="Forward" onclick="goForward()">
+    </section>
+
+    <hr>
+    <hr>
+
+    <section id="ex8">
+        <h2>The Navigator Object</h2>
+        <h3>Browser Cookies</h3>
+        <p>The cookieEnabled property returns true if cookis are enabled:</p>
+        <p id="demo8"></p>
+    </section>
+
+    <hr>
+
+    <section id="ex9">
+        <h3>Browser Application Name</h3>
+        <p>The appName property returns the application name of the browser: </p>
+        <p id="demo9"></p>
+        <p>Strange enough, "Netscape" is the application name for IE11, Chrome, Firefox, and Safari.</p>
+    </section>
+
+    <hr>
+
+    <section id="ex10">
+        <h3>Browser Application Code Name</h3>
+        <p>the appCodeName property returns the code name of the browser.</p>
+        <p>Do not rely on it! "Mozilla" is the application code naem for Chrome, Firefox, IE, Safari, and Opera.</p>
+        <p id="demo10"></p>
+    </section>
+
+    <hr>
+
+    <section id="ex11">
+        <h3>The Browser Engine</h3>
+        <p>The product property returns the product name of the browser.</p>
+        <p>Do not rely on it! Most browsers returns "Gecko" as product name!</p>
+        <p id="demo11"></p>
+    </section>
+
+    <hr>
+
+    <section id="ex12">
+        <h3>The Browser Engine</h3>
+        <p>The appversion property returns version information about the browser: </p>
+        <p id="demo12"></p>
+    </section>
+
+    <hr>
+
+    <section id="ex13">
+        <h3>The Browser Version</h3>
+        <p>The appVersion property returns version information about the browser: </p>
+        <p id="demo13"></p>
+    </section>
+
+    <hr>
+
+    <section id="ex14">
+        <h3>The Browser Agent</h3>
+        <p>The useragent property returns the user=agent header sent by the browser to the server: </p>
+        <p id="demo14"></p>
+    </section>
+
+    <hr>
+
+    <section id="ex15">
+        <h3>The Browser Platform</h3>
+        <p>the platform property returns the browser platform (operation system): </p>
+        <p id="demo15"></p>
+    </section>
+
+    <hr>
+
+    <section id="ex16">
+        <h3>The Browser Language</h3>
+        <p>The language property returns the browser's language: </p>
+        <p id="demo16"></p>
+    </section>
+
+    <hr>
+
+    <section id="ex17">
+        <h3>Is The Browser Online?</h3>
+        <p>the onLine property returns true if the browser is online: </p>
+        <p id="demo17"></p>
+    </section>
+
+    <hr>
+
+    <section id="ex18">
+        <h3>Is Java Enabled?</h3>
+        <p>the javaEnabled() method returns true if Java is enabled: </p>
+        <p id="demo18"></p>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section id="ex19">
+        <h2>JavaScript Timing</h2>
+        <h3>setTimeout()</h3>
+        <p>Click "Try it". Wait 3 seconds, and the page will alert "Hello".</p>
+        <button onclick="setTimeout(myFunction, 3000);">Try it</button>
+    </section>
+
+    <hr>
+
+    <section id="ex20">
+        <h3>clearTimeout()</h3>
+        <p>click "Try it". Wait 3 seconds. the page will alert "Hello".</p>
+        <p>click "Stop" to prevent the first function to execute.</p>
+        <p>(You must click "Stop" before the 3 seconds are up.)</p>
+
+        <!--함수 자체도 실행되고 동시에 할당도 하네 둘 다 함. 할당만 하는게 아니라-->
+        <button onclick="myVar = setTimeout(myFunction, 3000)">Try it</button>
+        <button onclick="clearTimeout(myVar)">Stop it</button>
+    </section>
+
+    <hr>
+
+    <section id="ex21">
+        <h3>setInterval()</h3>
+        <p>A script on this page starts this clock:</p>
+        <p id="demo21"></p>
+    </section>
+
+    <hr>
+
+    <section id="ex22">
+        <h3>clearInterval()</h3>
+        <p>A script on this page starts this clock: </p>
+        <p id="demo22"></p>
+        <button onclick="clearInterval(myVar2)">Stop time</button>
+    </section>
+
+    <script src="./js/index_bom.js"></script>
+</body>
+</html>
