@@ -13,6 +13,7 @@ const ex2 = d.getElementById("ex2");
 const myCollection2 = ex2.getElementsByTagName("p");
 
 d.getElementById("demo2").innerHTML = "This document contains " + myCollection2.length + " paragraph.";
+console.log(myCollection2["demo2"].innerHTML);
 
 
 
@@ -24,6 +25,5 @@ function myFunction() {
     for(let i = 0; i < myCollection3.length; i++) {
         myCollection3[i].style.color = "red";
     }
-
-    console.log(myCollection3.length);
+    console.log(myCollection3[2]);
 }
