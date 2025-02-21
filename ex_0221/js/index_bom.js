@@ -139,3 +139,9 @@ function setCookie(cname, cvalue, exdays) {
     let expires = "expires=" + date3.toUTCString();
     d.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
+
+function getCookie(cname) {
+    let name = cname + "=";
+    let decodedCookie = decodeURIComponent(d.cookie);
+    let ca = decodedCookie.split(";");
+}
