@@ -128,3 +128,14 @@ function myTimer2() {
     const date2 = new Date();
     d.getElementById("demo22").innerHTML = date2.toLocaleTimeString();
 }
+
+
+
+// ex23
+function setCookie(cname, cvalue, exdays) {
+    const date3 = new Date();
+    date3.setTime(date3.getTime() + (exdays * 24 * 60 * 60 * 1000));
+
+    let expires = "expires=" + date3.toUTCString();
+    d.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
