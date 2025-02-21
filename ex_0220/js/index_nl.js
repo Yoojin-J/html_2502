@@ -14,6 +14,7 @@ const ex2 = d.getElementById("ex2");
 const myNodelist2 = ex2.querySelectorAll("p");
 
 d.getElementById("demo2").innerHTML = "This document contains " + myNodelist2.length + " paragraphs.";
+console.log(myNodelist2["demo2"]);
 
 
 
@@ -25,4 +26,5 @@ function myFunction3() {
     for (let i = 0; i < myNodelist.length; i++) {
         myNodelist3[i].style.color = "red";
     }
+    console.log(myNodelist2[2]);
 }
