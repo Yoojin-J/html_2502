@@ -1,0 +1,50 @@
+#ex1 img {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+}
+#ex1 .invisible {
+    visibility: hidden;
+}
+
+
+div#wrapper {
+    position: relative;
+    contain: layout;
+
+    height: 200px;
+    width: auto;
+}
+#ex2 .box {
+    position: fixed;
+}
+#b1 { 
+    background-color: red;
+    width: 50px;
+    height: 50px;
+
+    top: 0;
+    left: 0;
+
+    z-index: 1; 
+}
+#b2 { 
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+
+    top: 5px;
+    left: 30px;
+
+    z-index: 3; 
+}
+#b3 { 
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+
+    top: 30px;
+    left: 10px;
+
+    z-index: 1; 
+}
