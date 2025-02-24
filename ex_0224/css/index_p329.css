@@ -1,0 +1,82 @@
+#ex1 .box1 {
+    box-sizing: content-box;
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    padding: 30px;
+    border: 2px solid red;
+}
+#ex1 .box2 {
+    box-sizing: border-box;
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    padding: 30px;
+    border: 2px solid red;
+}
+
+#ex2 {
+    width: auto;
+    height: 215px;
+}
+#ex2 .left-img {
+    float: left;
+    margin-right: 25px;
+}
+
+#ex3 {
+    width: auto;
+    height: 100px;
+}
+#ex3 .box1 {
+    padding: 20px;
+    margin-right: 10px;
+    background: #ffd800;
+    float: left;
+}
+#ex3 .box2 {
+    background: #0094ff;
+    padding: 20px;
+    margin-right: 10px;
+    float: left;
+}
+#ex3 .box3 {
+    background: #00ff21;
+    padding: 20px;
+    float: left;
+}
+#ex3 .box4 {
+    background: #ffffff;
+    padding: 20px;
+    float: right;
+    border: 1px solid black;
+}
+
+
+#ex4 .box1 {
+    float:left;
+
+    background: #ffd800;
+    padding: 20px;
+    margin-right: 10px;
+    margin: 10px;
+}
+#ex4 .box2 {
+    float: left;
+
+    background: #0094ff;
+    padding: 20px;
+    margin-right: 10px;
+    margin: 10px;
+}
+#ex4 .box3 {
+
+    background: #00ff21;
+    padding: 20px;
+}
+#ex4 .box4 {
+    clear: both;
+
+    background: #856791;
+    padding: 20px;
+}
