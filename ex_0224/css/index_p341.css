@@ -1,0 +1,77 @@
+#ex1 {
+    width: auto;
+    height: 80px;
+}
+#ex1 .box1 {
+    box-sizing: border-box;
+    background: #ffd20a;
+    float: left;
+    width: 25%;
+    height: 70px;
+
+    margin: 5px;
+}
+#ex1 .box2 {
+    box-sizing: border-box;
+    background: #0a60ff;
+    float: left;
+    width: 70%;
+    height: 70px;
+
+    margin: 5px;
+}
+
+#ex2 {
+    height: 150px;
+}
+#ex2 .box1 {
+    float: left;
+    width: 100px;
+    background: #FFd800;
+    margin-right: 10px;
+    padding: 20px;
+}
+#ex2 .box2 {
+    position: relative;
+    left: -50px;
+    top: 30px;
+    width: 300px;
+    background: #0094ff;
+    float: left;
+    padding: 20px;
+}
+
+
+#wrap {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ccc;
+}
+#ex3 .box {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #0094ff;
+}
+#crd1 { top: 0; left: 0; }
+#crd2 { top: 0; right: 0; }
+#crd3 { bottom: 0; left: 0; }
+#crd4 { bottom: 0; right: 0; }
+#crd5 { top: 100px; left: 100px; }
+
+
+#fx {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    width: 50px;
+    height: 50px;
+    background: #ff6a00;
+}
+#content {
+    width: 400px;
+}
+#ex4 p {
+    line-height: 30px;
+}
