@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이벤트 리스너</title>
+
+    <style>
+        #myDiv1, #myDiv2 {
+            background-color: coral;
+            padding: 50px;
+        }
+        #myP1, #myP2 {
+            background-color: white;
+            font-size: 20px;
+            border: 1px solid;
+            padding: 20px;
+        }
+
+        #myDIV {
+            background-color: coral;
+            border: 1px solid;
+            padding: 50px;
+            color: white;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <section id="ex1">
+        <h2>JavaScript addEventListener()</h2>
+        <p>This example uses the addEventListener() method to attach a click event to a button.</p>
+        <button id="myBtn">Try it</button>
+        <p id="demo1"></p>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section id="ex2">
+        <h2>JavaScript addEventListener()</h2>
+        <p>This example uses the addEventListener() method to attach a click event to a button.</p>
+        <button id="myBtn2">Try it</button>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section id="ex3">
+        <h2>JavaScript addEventListener()</h2>
+        <p>This example uses the addEventListener() method to execute a function when a user clicks on a button.</p>
+        <button id="myBtn3">Try it</button>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section id="ex4">
+        <h2>JavaScript addEventListener()</h2>
+        <p>This example uses the addEventListener() method to add two click events to the same button.</p>
+        <button id="myBtn4">Try it</button>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section id="ex5">
+        <h2>JavaScript addEventListener()</h2>
+        <p>This example uses the addEventListener() method to add many events on the same button.</p>
+        <button id="myBtn5">Try it</button>
+        <p id="demo5"></p>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section id="ex6">
+        <h2>JavaScript addEventListener()</h2>
+        <p>this exampleuses the addEventListener() method on the window object.</p>
+        <p>Try resizing this browser window to trigger the "resize" event handler.</p>
+        <p id="demo6"></p>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section id="ex7">
+        <h2>JavaScript addEventListener()</h2>
+        <p>This example demonstrates how to pass parameter values when using the addEventListener() method.</p>
+        <p>Click the button to perform a calculation.</p>
+        <button id="myBtn7">Try it</button>
+        <p id="demo7"></p>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section id="ex8">
+        <h2>JavaScript addEventListener()</h2>
+        <p>
+            Event Bubbling은 가장 안쪽에 있는 요소의 이벤트를 가장 먼저 그리고는 밖으로, 
+            Event Capturing은 가장 밖에 있는 요소의 이벤트부터 그리고는 안쪽으로
+            디폴트는 false, 버블링. true는 캡쳐링
+        </p>
+
+        <div id="myDiv1">
+            <h2>Bubbling:</h2>
+            <p id="myP1">Click me!</p>
+        </div>
+        <br>
+
+        <div id="myDiv2">
+            <h2>Capturing:</h2>
+            <p id="myP2">Click me!</p>
+        </div>
+    </section>
+
+    <hr>
+    <hr>
+
+
+    <section id="ex9">
+        <h2>JavaScript removeEventListener()</h2>
+
+        <div id="myDIV">
+            <p>This div element has an onmousemove event handler that displays a random number vevery time you move your mouse inside this orange field.</p>
+            <p>click the button to remove the div's evnt handler.</p>
+            <button onclick="removeHandler()" id="myBtn9">Remove</button>
+        </div>
+        <p id="demo9"></p>
+    </section>
+
+    <script src="./js/index_events.js"></script>
+</body>
+</html>

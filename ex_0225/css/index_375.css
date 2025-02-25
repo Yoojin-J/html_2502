@@ -1,0 +1,69 @@
+header {
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    text-align: right;
+    vertical-align: bottom;
+
+    height: 280px;
+    width: 965px;
+}
+header h1 {
+    color: #fffda0;
+
+    margin: 0;
+}
+header h2 {
+    color: #ffeb3b;
+
+    margin: 0;
+}
+
+nav a:link, a:visited, a:active, a:hover {
+    text-decoration: none;
+    color: white;
+}
+nav {
+    background-color: #0f0f0f;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+nav li {
+    display: inline-block;
+
+    padding: 15px 50px;
+}
+
+.content {
+    float: left;
+
+    width: 730px;
+
+    padding: 0 5px;
+}
+.banner {
+    margin: 0 15px;
+}
+
+.sidebar {
+    background-color: #c8e2c8;
+    width: 215px;
+    float: left;
+    padding: 10px 5px;
+}
+.sidebar img {
+    margin: 7.5px;
+}
+
+footer {
+    clear: both;
+
+    background-color: #0f0f0f;
+    color: #ffeb3b;
+    text-align: center;
+
+    padding: 10px;
+}

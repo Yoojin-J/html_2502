@@ -1,0 +1,71 @@
+body {
+    font-family: "맑은 고딕", "고딕", "굴림";
+}
+
+#wrapper {
+    width: 800px;
+    margin: 0 auto;;
+}
+
+header {
+    background-color: #f46075;
+    height: 150px;
+}
+header img {
+    float: right;
+}
+nav {
+    float: left;
+}
+nav a:link, a:visited, a:active, a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    display: inline-block;
+    padding: 70px 20px 10px 20px;
+}
+
+#content {
+    width: 800px;
+}
+
+section {
+    float: left;
+    width: 560px;
+    height: 560px;
+}
+#line {
+    width: auto;
+    height: 280px;
+}
+article {
+    box-sizing: border-box;
+    float: left;
+    width: 270px;
+    height: 270px;
+    border: 1px solid #a8a8a8;
+    margin: 5px;
+    padding: 0 13px;
+}
+article p {
+    font-size: 14px;
+}
+
+aside {
+    float: right;
+    width: 200px;
+    height: auto;
+
+    box-sizing: border-box;
+
+    border: 1px solid #009664;
+
+    margin: 5px;
+}
+aside img {
+    margin: 5px 10px;
+}
