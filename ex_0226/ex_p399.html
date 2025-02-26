@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>멀티미디어</title>
+</head>
+<body>
+    <section id="ex1">
+        <h2>오디오 파일 삽입하기</h2>
+        <!-- 
+        플레이어와 함게 오디오 삽입
+        controls => 플레이어 삽입
+
+        플레이어 표시 없이 배경 음악 삽입
+        auto play => 자동재생 
+        loop => 반복재생
+        -->
+        <audio src="./media/bgsound.mp3" controls></audio>
+        <img src="./images/bg2.jpg">
+
+        <hr>
+
+        <audio src="./media/bgsound.mp3" autoplay loop></audio>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section id="ex2">
+        <h2>비디오 파일 삽입하기</h2>
+        <!-- 
+        controls => 컨트롤 막대 표시
+        안 적으면 컨트롤 막대가 없는 비디오 삽입
+        -->
+        <video src="./media/Painting.mp4" width="400" height="250" controls></video>
+
+        <hr>
+
+        <video src="./media/Painting.mp4"></video>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section id="ex3">
+        <h2>여러 형식의 비디오 파일 함께 삽입하기</h2>
+        <video width="400" height="250" controls>
+            <source src="./media/Painting.mp4" type="video/mp4">
+            <source src="./media/Painting.webm" type="video/webm">
+            <source src="./media/Painting.ogv" type="video/ogg">
+
+            <!-- 대체 텍스트-->
+            이 영상을 보기 위해서는 HTML5를 지원하는 브라우저가 필요합니다
+
+            <!--
+                <video> 태그를 인식하지 못하는 브라우저에서도 비디오를 보여주어야한다면
+                플래시 무비로 변환한 후 <embed> 태그나 <object> 태그를 사용해 플러그인으로 삽입
+            -->
+            <object data="./media/Painting.swf" type="application/x-shockwave-flash"></object>
+        </video>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section id="ex4">
+        <h2>비디오 파일에 자막 파일 연결하기</h2>
+        <video controls>
+            <source src="./media/Painting.mp4" type="video/mp4">
+            <source src="./media/Painting.webm" type="video/webm">
+            <track src="./media/Painting.vtt" srclang="ko" label="Korean" default>
+        </video>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section id="ex5">
+        <h2>1분 복습</h2>
+        <video src="./media/movie.mp4" autoplay controls></video>
+    </section>
+</body>
+</html>
