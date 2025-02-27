@@ -1,0 +1,50 @@
+ul li{
+    list-style-type: none;
+    display: inline;
+
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+
+#ex1 .navi a:link, #ex1 .navi a:visited {
+    font-size: 14px;
+    padding: 10px;
+    text-decoration: none;
+}
+#ex1 .navi a:hover, #ex1 .navi a:focus {
+    background-color: #222;
+    color: #fff;
+}
+#ex1 .navi a:active {
+    background-color: #f00;
+}
+
+
+
+#ex2 input:disabled {
+    background: #ddd;
+    border: 1px #ccc solid;
+}
+#ex2 input:checked + span {
+    color: blue;
+}
+
+
+
+#ex3 table tr:nth-child(2n+1) {
+    background: lightgray;
+    color: black;
+}
+
+
+#ex4 li {
+    border: 1px solid black;
+}
+#ex4 ul.navi li:first-child {
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+#ex4 ul.navi li:last-child {
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}

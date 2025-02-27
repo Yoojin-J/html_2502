@@ -1,0 +1,21 @@
+#ex1 ul {
+    border: 1px dotted blue;
+}
+
+#ex2 > ul {
+    border: 1px dotted blue;
+}
+
+#ex3 > h1 + ul {
+    color: blue;
+    font-weight: bold;
+}
+
+#ex4 > h1 ~ ul {
+    color: blue;
+    font-weight: bold;
+}
+
+#ex5 > div + p {
+    color: blue;
+}
