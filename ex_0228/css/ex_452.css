@@ -1,0 +1,66 @@
+.movex:hover {
+    transform: translateX(50px);
+}
+.movey:hover {
+    transform: translateY(20px);
+}
+.movexy:hover {
+    transform: translate(10px, 20px);
+}
+
+
+
+.scalex:hover {
+    transform: scaleX(1.2);
+}
+.scaley:hover {
+    transform: scaleY(1.5);
+}
+.scale:hover {
+    transform: scale(0.7);
+}
+
+
+
+.rotate1:hover {
+    transform: rotate(20deg);
+}
+.rotate2:hover {
+    transform: rotate(-40deg);
+}
+
+
+
+.origin {
+    perspective: 200px;
+}
+.rotatex {
+    transform: rotateX(45deg);
+}
+.rotatey {
+    transform: rotateY(45deg);
+}
+.rotatez {
+    transform: rotateZ(45deg);
+}
+.rotatexyz {
+    transform: rotate3d(2.5, 1.2, -1.5, 45deg);
+}
+
+
+
+.skewx:hover {
+    transform: skewX(30deg);
+}
+.skewy:hover {
+    transform: skewY(15deg);
+}
+.skewxy:hover {
+    transform: skew(-25deg, -15deg);
+}
+
+
+
+.pic:hover {
+    transform: scale(2.0);
+}

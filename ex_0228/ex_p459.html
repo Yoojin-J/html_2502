@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>변형</title>
+    <link rel="stylesheet" href="./css/ex_459.css">
+</head>
+<body>
+    <section id="ex1">
+        <h2>이미지 변형 시작점을 다양하게 지정하기</h2>
+
+        <span>왼쪽 윗부분 기준</span>
+        <div class="origin">
+            <div class="ltop"><img src="./images/rose.jpg" class="rose"></div>
+        </div>
+
+        <span>오른쪽 윗부분 기준</span>
+        <div class="origin">
+            <div class="rtop"><img src="./images/rose.jpg" class="rose"></div>
+        </div>
+
+        <span>왼쪽 아랫부분 기준</span>
+        <div class="origin">
+            <div class="lbottom"><img src="./images/rose.jpg" class="rose"></div>
+        </div>
+
+        <span>오른쪽 아랫부분 기준</span>
+        <div class="origin">
+            <div class="rbottom"><img src="./images/rose.jpg" class="rose"></div>
+        </div>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section id="ex2">
+        <h2>이미지 회전하며 원근감 주기</h2>
+
+        <h4>원본 이미지</h4>
+        <div class="origin">
+            <img src="./images/sunset.jpg" alt="">
+        </div>
+
+        <div class="origin" id="no-pers">
+            <div class="rotatex"><img src="./images/sunset.jpg" alt=""></div>
+        </div>
+
+        <div class="origin">
+            <div class="rotatex" id="pers"><img src="./images/sunset.jpg" alt=""></div>
+        </div>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section id="ex3">
+        <h2>3D 변형을 적용하지 않았을 때 vs 적용했을 때</h2>
+        <div class="container">
+            <div class="box1" id="tr-style1">
+                <div class="box2"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="box1" id="tr-style2">
+                <div class="box2" id="tr-style2"></div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section id="ex4">
+        <h2>요소의 뒷면을 표시하지 않을 때 vs 표시할 때</h2>
+        <div class="container">
+            <div class="box" id="back1"><h1>BACK</h1></div>
+        </div>
+        <div class="container">
+            <div class="box" id="back2"><h1>BACK</h1></div>
+        </div>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section id="ex5">
+        <img src="./images/sunset.jpg" class="pic">
+    </section>
+</body>
+</html>
