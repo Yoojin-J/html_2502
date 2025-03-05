@@ -1,0 +1,97 @@
+/** 기본 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.wrap {
+    width: 1000px;
+    height: 650px;
+    display: flex;
+}
+
+
+/* 헤더 */
+/* header {
+    width: 200px;
+    height: 650px;
+    background-color: #cacaff;
+} */
+header {
+    width: 200px;
+    height: 100%;
+    border-right: 1px solid #000000;
+    padding-top: 30px;
+}
+header h1, .logo {
+    width: 200px;
+    aspect-ratio: auto;
+}
+
+header nav {
+    margin-top: 20px;
+}
+header nav > ul {
+    width: 180px;
+    padding-left: 14px;
+}
+header nav a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu {
+    position: relative;
+}
+.submenu {
+    position: absolute;
+    left: 166px;
+    top: -30px;
+    width: 100%;
+    background: #6f886f;
+    z-index: 998;
+    display: none;
+}
+.menu:hover > a {
+    color: #ffffff;
+    background: #6f886f;
+}
+.menu li:hover > a {
+    color: #ffffff;
+    background: #a4c9a4;
+}
+
+
+
+
+
+.main {
+    width: 800px;
+    height: 650px;
+    background-color: #9898ff;
+}
+
+.slideContent {
+    height: 350px;
+    background-color: #5757ff;
+}
+
+.content {
+    height: 200px;
+    background-color: #1414ff;
+}
+
+footer {
+    height: 100px;
+    background-color: #00007e;
+}

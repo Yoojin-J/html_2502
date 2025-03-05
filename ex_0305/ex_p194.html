@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const a = new Promise((resolve, reject) => {
+            setTimeout(() => {
+                console.log("A. 라면 장보기");
+                console.log("B. 라면 물 끓이기");
+                //resolve("라면 장보기 완료");
+                reject("실패");
+            }, 1000);
+        });
+
+        a
+        .then((result) => {
+            console.log(result);
+            console.log("C. 끓는 물에 라면, 스프 넣고 익히기");
+            console.log("D. 라면 완성 후 시식하기");
+        })
+        .catch((result) => {
+            console.log(result);
+            console.log("라면 만들기 중단");
+        });
+
+
+        const b = new Promise((resolve, reject) => {
+            setTimeout(() => {
+                console.log("E. 커피 장보기");
+                console.log("F. 커피 물 끓이기");
+                reject("커피 품절");
+            }, 1000);
+        });
+
+        b.then((result) => {
+            console.log("G. 끓는 물에 커피 넣고, 젓기");
+            console.log("H. 커피 완성 후 마시기");
+        }).catch((result) => {
+            console.log(result);
+            console.log("커피 만들기 중단");
+        });
+
+        const c = new Promise((resolve, reject) => {
+            setTimeout(() => {
+                console.log("no result");
+            }, 1000);
+        });
+
+
+        setTimeout(() => {
+            console.log("라면 장보기: ", a);
+            console.log("커피 장보기: ", b);
+            console.log("파스타 장보기: ", c);
+        }, 1000);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
